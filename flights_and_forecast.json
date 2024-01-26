@@ -1,0 +1,157 @@
+{
+    "flights":[
+        {
+            "no": "F1",
+            "departure": 5,
+            "from": "moscow",
+            "to": "novosibirsk",
+            "duration": 4
+        },
+        {
+            "no": "F2",
+            "departure": 5,
+            "from": "moscow",
+            "to": "omsk",
+            "duration": 3
+        },
+        {
+            "no": "F3",
+            "departure": 6,
+            "from": "omsk",
+            "to": "novosibirsk",
+            "duration": 1
+        },
+        {
+            "no": "F4",
+            "departure": 6,
+            "from": "novosibirsk",
+            "to": "omsk",
+            "duration": 1
+        },
+        {
+            "no": "F5",
+            "departure": 8,
+            "from": "novosibirsk",
+            "to": "moscow",
+            "duration": 4
+        },
+        {
+            "no": "F6",
+            "departure": 6,
+            "from": "omsk",
+            "to": "moscow",
+            "duration": 3
+        },
+        {
+            "no": "F7",
+            "departure": 8,
+            "from": "moscow",
+            "to": "novosibirsk",
+            "duration": 4
+        },
+        {
+            "no": "F8",
+            "departure": 9,
+            "from": "moscow",
+            "to": "omsk",
+            "duration": 3
+        },
+        {
+            "no": "F9",
+            "departure": 16,
+            "from": "omsk",
+            "to": "novosibirsk",
+            "duration": 1
+        },
+        {
+            "no": "F10",
+            "departure": 12,
+            "from": "omsk",
+            "to": "novosibirsk",
+            "duration": 1
+        }
+    ],
+    "forecast":{
+        "moscow":[
+            {"time": 0, "wind": 18, "visibility": 150},
+            {"time": 1, "wind": 22, "visibility": 210},
+            {"time": 2, "wind": 25, "visibility": 180},
+            {"time": 3, "wind": 33, "visibility": 180},
+            {"time": 4, "wind": 29, "visibility": 190},
+            {"time": 5, "wind": 27, "visibility": 220},
+            {"time": 6, "wind": 35, "visibility": 211},
+            {"time": 7, "wind": 28, "visibility": 198},
+            {"time": 8, "wind": 22, "visibility": 100},
+            {"time": 9, "wind": 10, "visibility": 300},
+            {"time": 10, "wind": 14, "visibility": 400},
+            {"time": 11, "wind": 19, "visibility": 500},
+            {"time": 12, "wind": 40, "visibility": 210},
+            {"time": 13, "wind": 32, "visibility": 700},
+            {"time": 14, "wind": 24, "visibility": 300},
+            {"time": 15, "wind": 22, "visibility": 280},
+            {"time": 16, "wind": 18, "visibility": 100},
+            {"time": 17, "wind": 16, "visibility": 200},
+            {"time": 18, "wind": 37, "visibility": 300},
+            {"time": 19, "wind": 22, "visibility": 300},
+            {"time": 20, "wind": 10, "visibility": 100},
+            {"time": 21, "wind": 4, "visibility": 90},
+            {"time": 22, "wind": 0, "visibility": 10},
+            {"time": 23, "wind": 5, "visibility": 100},
+            {"time": 24, "wind": 18, "visibility": 300}
+        ],
+        "novosibirsk":[
+            {"time": 0, "wind": 18, "visibility": 150},
+            {"time": 1, "wind": 22, "visibility": 210},
+            {"time": 2, "wind": 25, "visibility": 180},
+            {"time": 3, "wind": 33, "visibility": 180},
+            {"time": 4, "wind": 29, "visibility": 190},
+            {"time": 5, "wind": 27, "visibility": 220},
+            {"time": 6, "wind": 35, "visibility": 211},
+            {"time": 7, "wind": 28, "visibility": 198},
+            {"time": 8, "wind": 22, "visibility": 100},
+            {"time": 9, "wind": 10, "visibility": 300},
+            {"time": 10, "wind": 14, "visibility": 400},
+            {"time": 11, "wind": 19, "visibility": 500},
+            {"time": 12, "wind": 35, "visibility": 210},
+            {"time": 13, "wind": 28, "visibility": 700},
+            {"time": 14, "wind": 24, "visibility": 300},
+            {"time": 15, "wind": 22, "visibility": 280},
+            {"time": 16, "wind": 18, "visibility": 100},
+            {"time": 17, "wind": 16, "visibility": 200},
+            {"time": 18, "wind": 37, "visibility": 300},
+            {"time": 19, "wind": 22, "visibility": 300},
+            {"time": 20, "wind": 10, "visibility": 100},
+            {"time": 21, "wind": 4, "visibility": 90},
+            {"time": 22, "wind": 0, "visibility": 10},
+            {"time": 23, "wind": 5, "visibility": 100},
+            {"time": 24, "wind": 18, "visibility": 300}
+        ],
+        "omsk":[
+            {"time": 0, "wind": 18, "visibility": 210},
+            {"time": 1, "wind": 22, "visibility": 210},
+            {"time": 2, "wind": 25, "visibility": 1000},
+            {"time": 3, "wind": 33, "visibility": 1100},
+            {"time": 4, "wind": 29, "visibility": 2000},
+            {"time": 5, "wind": 27, "visibility": 2000},
+            {"time": 6, "wind": 35, "visibility": 500},
+            {"time": 7, "wind": 28, "visibility": 300},
+            {"time": 8, "wind": 22, "visibility": 189},
+            {"time": 9, "wind": 40, "visibility": 100},
+            {"time": 10, "wind": 24, "visibility": 200},
+            {"time": 11, "wind": 33, "visibility": 500},
+            {"time": 12, "wind": 40, "visibility": 210},
+            {"time": 13, "wind": 32, "visibility": 700},
+            {"time": 14, "wind": 24, "visibility": 300},
+            {"time": 15, "wind": 22, "visibility": 280},
+            {"time": 16, "wind": 18, "visibility": 100},
+            {"time": 17, "wind": 16, "visibility": 200},
+            {"time": 18, "wind": 37, "visibility": 300},
+            {"time": 19, "wind": 22, "visibility": 300},
+            {"time": 20, "wind": 10, "visibility": 100},
+            {"time": 21, "wind": 15, "visibility": 90},
+            {"time": 22, "wind": 22, "visibility": 10},
+            {"time": 23, "wind": 26, "visibility": 100},
+            {"time": 24, "wind": 20, "visibility": 300}
+        ]
+    }
+}
