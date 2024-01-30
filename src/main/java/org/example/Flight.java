@@ -4,10 +4,12 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.json.JsonObject;
+import java.util.HashMap;
 
 @Setter
 @Getter
 public class Flight {
+    private HashMap<String, Integer> clock= new HashMap<>();
     private static final Integer MAX_WIND = 30;
     private static final Integer MAX_VISIBILITY = 200;
     private String no;
@@ -29,6 +31,9 @@ public class Flight {
         this.to = to;
         this.duration = duration;
         this.forecast = forecast;
+        clock.put("moscow",0);
+        clock.put("novosibirsk",4);
+        clock.put("omsk",3);
     }
 
     public void print(){
@@ -44,10 +49,13 @@ public class Flight {
                 &&  getSmf( from,"visibility", departure) >= MAX_VISIBILITY;
     }
     private boolean checkTo(){
-        return getSmf(to,"wind", departure+duration) <= MAX_WIND
-                &&  getSmf(to,"visibility", departure+duration) >= MAX_VISIBILITY;
+        return getSmf(to,"wind", departure+duration+diff(from, to)) <= MAX_WIND
+                &&  getSmf(to,"visibility", departure+duration+diff(from, to)) >= MAX_VISIBILITY;
     }
     private Integer getSmf( String city, String smf, Integer time){
         return forecast.get(city).asJsonArray().get(time).asJsonObject().getInt(smf);
+    }
+    private int diff(String from, String to){
+        return clock.get(to) - clock.get(from);
     }
 }
