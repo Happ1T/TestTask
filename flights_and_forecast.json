@@ -71,6 +71,11 @@
             "duration": 1
         }
     ],
+        "cities": [
+        { "name": "moscow", "utcOffset": 3 },
+        { "name": "novosibirsk", "utcOffset": 7 },
+        { "name": "omsk", "utcOffset": 6 }
+    ],
     "forecast":{
         "moscow":[
             {"time": 0, "wind": 18, "visibility": 150},
@@ -139,7 +144,7 @@
             {"time": 9, "wind": 40, "visibility": 100},
             {"time": 10, "wind": 24, "visibility": 200},
             {"time": 11, "wind": 33, "visibility": 500},
-            {"time": 12, "wind": 40, "visibility": 210},
+            {"time": 12, "wind": 20, "visibility": 210},
             {"time": 13, "wind": 32, "visibility": 700},
             {"time": 14, "wind": 24, "visibility": 300},
             {"time": 15, "wind": 22, "visibility": 280},
